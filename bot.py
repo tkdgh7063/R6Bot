@@ -8,7 +8,7 @@ import r6sapi as api
 import os
 
 r6bot = commands.Bot(command_prefix="//")
-token = os.environ["TOKEN"]
+token = os.environ["BOT_TOKEN"]
 
 users = {}
 
