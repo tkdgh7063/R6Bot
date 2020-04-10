@@ -5,9 +5,10 @@ from discord.ext.commands import Bot
 import datetime
 import func
 import r6sapi as api
+import os
 
 r6bot = commands.Bot(command_prefix="//")
-token = "NjkxMTk4MjEyMjkxMTY2MjM5.XoBRdA.pbh71g4rFlxLHWeakocpNQcleTw"
+token = os.environ["TOKEN"]
 
 users = {}
 
